@@ -1,0 +1,104 @@
+/* 🌌 BACKGROUND */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #141e30, #243b55);
+}
+
+/* 📱 APP CONTAINER */
+.app {
+  max-width: 380px;
+  margin: 40px auto;
+  background: #ffffff;
+  border-radius: 30px;
+  padding: 20px;
+  box-shadow: 0 25px 50px rgba(0,0,0,0.4);
+}
+
+/* 🧾 HEADER */
+.header {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* 😊 MOOD */
+.mood-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.mood {
+  font-size: 20px;
+  padding: 12px;
+  border-radius: 50%;
+  background: #eef2ff;
+  transition: 0.3s;
+}
+
+.mood:hover {
+  transform: scale(1.2);
+  background: #6a11cb;
+  color: white;
+}
+
+/* 📦 CARDS */
+.card {
+  background: #f8fafc;
+  padding: 15px;
+  border-radius: 20px;
+  margin: 12px 0;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* 🎨 GRID */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.grid-card {
+  border-radius: 20px;
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.grid-card:hover {
+  transform: scale(1.05);
+}
+
+.meditation { background: linear-gradient(135deg, #667eea, #764ba2); }
+.stress { background: linear-gradient(135deg, #ff758c, #ff7eb3); }
+.focus { background: linear-gradient(135deg, #43cea2, #185a9d); }
+.relax { background: linear-gradient(135deg, #fa709a, #fee140); }
+
+/* 🔘 BUTTON */
+.btn {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 15px;
+  width: 100%;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+/* 📱 NAV */
+.bottom-nav {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  padding: 12px;
+  border-radius: 20px;
+  color: white;
+}

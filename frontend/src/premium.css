@@ -1,0 +1,56 @@
+/* 🌌 BACKGROUND */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #f5f7fa;
+}
+
+/* 📱 CONTAINER */
+.container {
+  max-width: 380px;
+  margin: 20px auto;
+  background: white;
+  border-radius: 25px;
+  padding: 20px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+/* 🧾 TITLE */
+.title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* 🎵 CARD */
+.card {
+  padding: 15px;
+  border-radius: 20px;
+  margin: 10px 0;
+  color: white;
+  text-align: center;
+}
+
+/* BUTTON */
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 15px;
+  margin-top: 10px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+}
+
+/* SOFT CARD */
+.soft {
+  background: #f0f2f5;
+  color: black;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}

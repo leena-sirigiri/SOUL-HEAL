@@ -1,0 +1,87 @@
+/* 🌟 RESET EVERYTHING */
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* 📱 WRAPPER */
+.welcome-wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+}
+
+/* 📶 STATUS BAR */
+.status-bar {
+  width: 100%;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+/* 📦 MAIN CONTENT */
+.welcome-card {
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* 🖼 IMAGE */
+.welcome-img {
+  width: 300px;
+  max-width: 100%;
+  display: block;
+  margin: 20px auto;
+}
+
+/* 🧾 TITLE */
+h2 {
+    color: brown;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+/* 📝 TEXT */
+p {
+  font-size: 16px;
+  font-style: italic;
+  color: #e60505;
+  margin-bottom: 25px;
+}
+
+/* 🔘 PRIMARY BUTTON */
+.primary-btn {
+  width: 250px;
+  padding: 12px;
+  background: #4b0101;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+/* ⚪ SECONDARY BUTTON */
+.secondary-btn {
+  width: 250px;
+  padding: 12px;
+  background: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* 📱 BOTTOM LINE */
+.bottom-bar {
+  width: 120px;
+  height: 5px;
+  background: black;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
